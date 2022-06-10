@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.wrapper {
+    width: 80%;
+    padding: auto;
+    margin: 15% auto;
+    text-align: center;
+}
+
+.letter {
+    font-family: cursive;
+    font-size: 90px;
+    display: inline-block;
+    color: #999;
+    transition-property: all;
+    transition-duration: 250ms;
+    transition-timing-function: ease-in-out;
+}
+
+
+/* dynamically added class */
+.active {
+    transform: scale(1.5) rotate(20deg);
+    color: blueviolet;
+}
